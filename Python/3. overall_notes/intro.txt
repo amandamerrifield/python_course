@@ -1,0 +1,38 @@
+Python
+- simpler* to learn than some other languages
+- open source modules and packages (true of Java as well)
+- the standard implementation is interpreted 
+- object-oriented; So much so that everything is an object (really everything). Most devs code in a procedural way. 
+- Doesn't require you to code in any particular way. Can do OO or Procedural or functional and it will not complain which can be difficult
+- No guidance on what to choose
+- Dynamically typed (you don't have to specify the type of the variable)
+- case-sensitive
+- some white space is mandatory 
+- named after Monty Python 
+
+Compiled or interpreted ?
+- It's neither
+- Standard implementation is interpreted but others are not 
+- The language itself doesn't dictate whether it's compiled or interpreted
+- Interpretation means that source code is compiled and executed at run time
+- No separate compilation phase at run time
+- source code -> bytecode -> machine code 
+- Why bytecode ? To create platform independence ("write once run anywhere")
+- Interpreter is system dependent 
+- the python command starts the Python Virtual Machine (VM) which includes the interpreter to go from bytecode to machine code
+- some implementations compile directly to machine code etc
+
+
+Versions
+- current 3.12
+- the language was effectively rewritten between v2 and v3
+- v2 is still supported even though it was supposed to be killed by now
+- VScode will tel lyou at the bottom of the screen what version you're working with  
+- Good to pay attention to versions because the version on the machine/ in the code I'm working on should match 
+- Can have many versions installed at once
+
+Two Modes of Execution in Python
+- run the command with no arguments (inputs) which will take us into REPL mode; 
+    ie execute one statement at a time
+- run the command with a file name argument and then you're running Python in script mode
+    ie execute all statements in a file 
